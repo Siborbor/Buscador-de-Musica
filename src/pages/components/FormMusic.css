@@ -1,0 +1,27 @@
+.contenedorForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0px 30px 0px;
+}
+
+.inputForm {
+    border-radius: 6px;
+    height: 40PX;
+    background-color: #ffffff00;
+    color: white;
+    border: 3px solid white;
+    width: 400px;
+    padding-left: 15px;
+}
+
+.labelForm {
+    color: white;
+    text-align: start;
+    font-weight: bold;
+}
+
+.contenedorInput {
+    display: flex;
+    flex-direction: column;
+}

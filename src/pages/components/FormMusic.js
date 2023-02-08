@@ -1,13 +1,21 @@
-import React from 'react'
+import React from "react";
+import "./FormMusic.css";
 
 const formMusic = () => {
   return (
     <div>
-        <form>
-            <label></label>
-        </form>
+      <form className="contenedorForm">
+        <div className="contenedorInput">
+          <label className="labelForm">Artista</label>
+          <input className="inputForm"></input>
+        </div>
+        <div className="contenedorInput">
+          <label className="labelForm">Musica</label>
+          <input className="inputForm"></input>
+        </div>
+      </form>
     </div>
-  )
-}
+  );
+};
 
-export default formMusic
+export default formMusic;
