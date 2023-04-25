@@ -7,11 +7,15 @@ import './SearchMusic.css'
 
 const SearchMusic = () => {
 
+  const handleSearch = (data) =>{
+    console.log(data)
+  }
+
   return (
     <div>
       <h3 className="titulo">BUSCADOR DE CANCIONES</h3>
       <div className="contenedorForm">
-        <FormMusic/>
+        <FormMusic handleSearch={handleSearch}/>
       </div>
       <div className="contenedorContenido">
       <ContentLetra/>

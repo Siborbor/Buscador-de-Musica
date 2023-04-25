@@ -13,6 +13,10 @@
     border: 3px solid white;
     width: 400px;
     padding-left: 15px;
+    color: #181818;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: capitalize;
 }
 
 .labelForm {
@@ -24,4 +28,22 @@
 .contenedorInput {
     display: flex;
     flex-direction: column;
+}
+
+input[type="submit"] {
+    width: 100%;
+    margin: 26px;
+    border-radius: 6px;
+    padding: 14px;
+    border: 0px;
+    color: #232323;
+    font-weight: 800;
+    font-size: 17px;
+    transition: 300ms;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(22, 22, 22);
+    color: white;
+    transition: 300ms;
 }
